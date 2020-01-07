@@ -1,0 +1,7 @@
+def reverse():
+    original=list(input("the number or text you want to reverse: "))
+    print(original)
+    original1=original[len(original)-1]
+    for i in range(len(original)-2,-1,-1):
+        original1=original1+original[i]
+    print (original1)
